@@ -32,7 +32,7 @@ MakeDancer.prototype.setPosition = function(top, left) {
 };
 
 MakeDancer.prototype.lineUp = function() {
-  this.setPosition(150, Math.random() * 1000);
+  this.setPosition(500, Math.random() * 1000);
 };
 
 // Understanding the Prompt
