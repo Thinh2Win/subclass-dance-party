@@ -1,6 +1,7 @@
 var MakeBlinkyDancer = function(top, left, timeBetweenSteps) {
   MakeDancer.apply(this, arguments);
   this.$node.addClass('blinkyDancer');
+  this.$node.prepend('<img id="Mushu" src="images/Mushu.png">');
 };
 
 MakeBlinkyDancer.prototype = Object.create(MakeDancer.prototype);

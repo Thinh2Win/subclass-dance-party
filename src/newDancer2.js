@@ -1,7 +1,7 @@
 var MakeNewDancer2 = function(top, left, timeBetweenSteps) {
   MakeDancer.apply(this, arguments);
-  this.$node.addClass('rotate');
   this.$node.addClass('Dancer2');
+  this.$node.addClass('shake');
   this.$node.prepend('<img id="abgMulan" src="images/ABGmulan.png">');
 };
 

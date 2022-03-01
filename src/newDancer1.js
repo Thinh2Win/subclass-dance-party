@@ -1,6 +1,7 @@
 var MakeNewDancer = function(top, left, timeBetweenSteps) {
   MakeDancer.apply(this, arguments);
   this.$node.addClass('Dancer1');
+  this.$node.addClass('spinBounce');
   this.$node.prepend('<img id="kevinNguyen" src="images/Kevin Nguyen.png">');
 };
 
