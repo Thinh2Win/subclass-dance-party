@@ -38,7 +38,6 @@ $(document).ready(function() {
     // have line up method invoked
     window.dancers.forEach(function(dancers) {
       dancers.lineUp();
-      console.log(dancers);
     });
   });
 });

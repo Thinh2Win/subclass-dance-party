@@ -33,6 +33,8 @@ MakeDancer.prototype.setPosition = function(top, left) {
 
 MakeDancer.prototype.lineUp = function() {
   this.setPosition(500, Math.random() * 1000);
+  this.$node.removeClass('rotate');
+  this.$node.addClass('bounce');
 };
 
 // Understanding the Prompt

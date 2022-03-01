@@ -35,7 +35,41 @@ body, a:link, a:visited, a:active{
 
 
 
-#kevinNguyen, #abgMulan{
+#kevinNguyen{
   max-width: 100px;
   max-height:100px;
+
 }
+
+#abgMulan{
+  max-width: 100px;
+  max-height:100px;
+  /* animation:rotate; */
+
+}
+
+.bounce {
+  animation: bounce 0.5s;
+  animation-direction: alternate-reverse;
+  animation-timing-function: cubic-bezier(0.5, 0.05, 1.0, 0.5);
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    from {transform: translate3d(0, 0, 0);}
+    to {transform: translate3d(0, 200px, 0);}
+  }
+
+
+  .rotate {
+    animation: rotation 6s infinite linear;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
