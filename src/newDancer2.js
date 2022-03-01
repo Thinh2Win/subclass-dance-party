@@ -1,6 +1,7 @@
 var MakeNewDancer2 = function(top, left, timeBetweenSteps) {
   MakeDancer.apply(this, arguments);
   this.$node.addClass('Dancer2');
+  this.$node.prepend('<img id="abgMulan" src="images/ABGmulan.png">');
 };
 
 MakeNewDancer2.prototype = Object.create(MakeDancer.prototype);

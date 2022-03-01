@@ -21,19 +21,20 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
-  border:10px solid red;
-  border-radius:10px;
+  /* border:10px solid red;
+  border-radius:10px; */
   position:absolute;
 }
 
-.Dancer2{
+.blinkyDancer{
   border:10px solid blue;
   border-radius:10px;
   position:absolute;
 }
 
-.Dancer1{
-  border:10px solid green;
-  border-radius:10px;
-  position:absolute;
+
+
+#kevinNguyen, #abgMulan{
+  max-width: 100px;
+  max-height:100px;
 }
